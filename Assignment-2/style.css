@@ -1,0 +1,78 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+ body {
+     font-family: 'Poppins', sans-serif;
+     background-image: linear-gradient(to right, rgb(81, 1, 81), rgb(221, 176, 221));
+     color: white;
+
+ }
+
+ .container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 50px;
+     height: 80vh;
+ }
+
+ .card {
+     border: 2px solid white;
+     border-radius: 12px;
+     width: 300px;
+     height: 300px;
+     padding: 10px;
+     background-color: rgba(0, 0, 0, 0.13);
+
+ }
+
+ h1 {
+     padding: 8px 15px;
+ }
+
+ .card h2 {
+     padding: 5px 5px;
+     text-align: center;
+     color: white;
+     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+ }
+
+ .card ul {
+     padding: 0px;
+ }
+
+ .card ul li {
+     list-style-type: none;
+     margin: 5px 8px;
+     font-size: 20px;
+ }
+
+ .card button {
+     background-color: rgb(237, 194, 237);
+     color: rgb(81, 1, 81);
+     font-size: 16px;
+     font-weight: 600;
+     padding: 16px;
+     border-radius: 8px;
+     cursor: pointer;
+     margin: 5px 85px;
+     border: none;
+ }
+
+.card button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ .card button:hover {
+     background-color: rgb(81, 1, 81);
+     color: white;
+     transform: scale(1.1);
+     transition: 0.1s ease-in-out;
+     border: 1px solid white;
+ }
+
+ .card:hover {
+     box-shadow: 10px 10px 20px rgba(255, 235, 235, 0.5), -10px -10px 20px rgba(255, 235, 235, 0.5);
+     transform: translateY(2px);
+     transition: 0.1s ease-in-out;
+ }
