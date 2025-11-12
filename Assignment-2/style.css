@@ -4,7 +4,7 @@
      font-family: 'Poppins', sans-serif;
      background-image: linear-gradient(to right, rgb(81, 1, 81), rgb(221, 176, 221));
      color: white;
-
+     
  }
 
  .container {
@@ -13,6 +13,7 @@
      justify-content: center;
      gap: 50px;
      height: 80vh;
+      
  }
 
  .card {
@@ -22,7 +23,7 @@
      height: 300px;
      padding: 10px;
      background-color: rgba(0, 0, 0, 0.13);
-
+ 
  }
 
  h1 {
